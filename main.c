@@ -13,8 +13,6 @@ main(int argc, char *argv[]) {
   int n = atoi(argv[1]);
 
   char* source_data = \
-					  "float _fib(float n);                   \n" \
-					  "                                       \n" \
 					  "float _fib(float n) {                  \n" \
 					  "  if(n <= 0) return 0;                 \n" \
 					  "  if(n > 0 && n < 3) return 1;         \n" \
