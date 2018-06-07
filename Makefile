@@ -3,8 +3,8 @@ SRCS = \
 
 OBJS = $(subst .c,.o,$(SRCS))
 
-CFLAGS = 
-LIBS = -lopencl
+CFLAGS = -Wall
+LIBS = -lOpenCL
 TARGET = cl-fib
 ifeq ($(OS),Windows_NT)
 TARGET := $(TARGET).exe
