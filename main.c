@@ -1,6 +1,7 @@
 #define CL_USE_DEPRECATED_OPENCL_1_2_APIS 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <time.h>
 #include <CL/opencl.h>
 
